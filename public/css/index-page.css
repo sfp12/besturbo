@@ -1,0 +1,67 @@
+@charset "UTF-8";
+.index-page {
+  /* 咨询*/ }
+  .index-page .banner {
+    border: 1px solid #dddddd;
+    border-radius: .25rem;
+    margin-top: 1rem;
+    margin-left: 0;
+    margin-right: 0; }
+    .index-page .banner .img-wrap {
+      padding-left: 0; }
+      .index-page .banner .img-wrap img {
+        width: 100%; }
+    .index-page .banner .banner-right {
+      width: 355px;
+      padding-top: 24px; }
+      .index-page .banner .banner-right .yzm-con div[class^=col] {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        .index-page .banner .banner-right .yzm-con div[class^=col] input {
+          width: 3.5rem; }
+        .index-page .banner .banner-right .yzm-con div[class^=col] .right .yzm {
+          height: 1.5rem; }
+        .index-page .banner .banner-right .yzm-con div[class^=col] .right .change-yzm {
+          width: 5rem;
+          font-size: 12px; }
+  .index-page .net-service {
+    padding-left: 0;
+    padding-right: 0; }
+
+@media (max-width: 768px) {
+  .index-page .img-wrap {
+    padding-right: 0; }
+  .index-page .banner .banner-right {
+    width: 100%;
+    padding-top: 0; }
+    .index-page .banner .banner-right .form-group {
+      margin-bottom: 0; }
+    .index-page .banner .banner-right .yzm-con {
+      padding-top: 24px;
+      padding-bottom: 24px; }
+      .index-page .banner .banner-right .yzm-con div[class^=col] {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        .index-page .banner .banner-right .yzm-con div[class^=col] input {
+          width: 3.5rem; }
+        .index-page .banner .banner-right .yzm-con div[class^=col] .right .yzm {
+          height: 1.5rem; }
+        .index-page .banner .banner-right .yzm-con div[class^=col] .right .change-yzm {
+          width: 5rem;
+          font-size: 12px; } }
+
+/*# sourceMappingURL=index-page.css.map */

@@ -1,0 +1,17 @@
+
+
+.pagination{
+  li{
+    a{
+      color:$blue;
+      font-size: 16px;
+    }
+  }   
+  li.active{
+    a,
+    a:hover{        
+      background-color: $blue;
+      border-color: $blue;
+    }
+  }  
+}

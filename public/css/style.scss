@@ -2,6 +2,39 @@
 
 @import 'variables.scss';
 
-html{
-	font-size: 20px;
-}
+@import 'reset.scss';
+
+@import 'utilities/pagination.scss';
+@import 'utilities/table.scss';
+@import 'utilities/header.scss';
+@import 'utilities/left-menu.scss';
+@import 'utilities/skills.scss';
+@import 'utilities/footer.scss';
+@import 'utilities/modal.scss';
+@import 'utilities/list-multi-header.scss';
+@import 'utilities/list-single-header.scss';
+@import 'utilities/list-no-header.scss';
+@import 'utilities/statistics.scss';
+@import 'utilities/file-upload.scss';
+@import 'utilities/search.scss';
+@import 'utilities/user-pick.scss';
+@import 'utilities/list-no-head-flat.scss';
+@import 'utilities/chat.scss';
+
+@import 'index-page.scss';
+@import 'logedin-page.scss';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

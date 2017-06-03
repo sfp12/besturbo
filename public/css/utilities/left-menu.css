@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*左侧的列表*/
+.left-menu {
+  padding-right: .5rem;
+  width: 8.5rem; }
+  .left-menu div {
+    cursor: pointer;
+    overflow: hidden;
+    margin: 1rem 1rem 1rem 0; }
+    .left-menu div.collapsed {
+      height: 1.2rem; }
+    .left-menu div > span {
+      display: block;
+      font-size: 16px;
+      color: #1387e9; }
+    .left-menu div a {
+      display: block;
+      font-size: 16px;
+      margin: 1rem 1rem 1rem 0;
+      font-size: 16px;
+      color: #1387e9;
+      margin-left: 1.5rem; }
+      .left-menu div a:hover {
+        color: #fa8639; }
+
+/*# sourceMappingURL=left-menu.css.map */

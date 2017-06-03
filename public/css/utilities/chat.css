@@ -1,0 +1,59 @@
+.chat {
+  background-color: #eee;
+  padding-top: 1px; }
+  .chat .time {
+    max-width: 50%;
+    text-align: center;
+    margin: 10px auto; }
+    .chat .time span {
+      background-color: #dcdcdc;
+      padding: 0 18px;
+      font-size: 12px;
+      color: #fff;
+      line-height: 19px;
+      display: inline-block;
+      border-radius: 2px; }
+  .chat .message {
+    padding-bottom: 10px; }
+    .chat .message .name {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      float: left;
+      margin: 0 10px 0 0;
+      color: $blue;
+      font-size: 16px; }
+    .chat .message .content {
+      display: inline-block;
+      position: relative;
+      padding: 8px;
+      max-width: calc(100% - 100px);
+      min-height: 40px;
+      line-height: 24px;
+      font-size: 16px;
+      text-align: left;
+      word-break: break-all;
+      background-color: #d6ecfa;
+      border-radius: 4px; }
+      .chat .message .content:before {
+        content: " ";
+        position: absolute;
+        top: 14px;
+        right: 100%;
+        border: 6px solid transparent;
+        border-right-color: #d6ecfa; }
+    .chat .message.self {
+      text-align: right; }
+      .chat .message.self .name {
+        float: right;
+        margin: 0 0 0 10px;
+        color: #fa8639; }
+      .chat .message.self .content {
+        background-color: #fff; }
+        .chat .message.self .content:before {
+          right: inherit;
+          left: 100%;
+          border-right-color: transparent;
+          border-left-color: #fff; }

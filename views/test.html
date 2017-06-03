@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+<title>最美四月-【盈通人2017年4月刊】</title>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script>
+
+        var appId = 'wxeb857b8d61b1c400';
+        var appSecret = 'cc65a019d8740f9c023f84e03bc4678d'
+        var grant_type = "client_credential";//获取access_token填写client_credential
+
+        function init(){
+            
+            getAccessToken();
+        }
+
+        function getAccessToken(){
+            var url = "https://api.weixin.qq.com/cgi-bin/token?grant_type="+grant_type+"&appid="+appId+"&secret="+appSecret;
+
+            // $.get(url, function(data){
+            //     debugger
+            // })
+            $.ajax({
+                type: 'GET',
+                url: url,
+                dataType: "jsonp",
+                complete: function(data){
+                  debugger
+                }
+            })
+        }
+
+        init();
+        
+        
+    </script>
+
+</head> 
+<body>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+
+.list-no-head-flat{
+  border: 1px solid #dddddd;
+  .item{
+    border-bottom: 1px dashed #999999;
+    padding: .4rem;
+    margin: 0;    
+    
+    .title{
+        font-size: 16px;
+        padding-bottom: .2rem;
+        &:hover{
+          color: $blue;
+      }     
+        .expert{
+          padding-right: .5rem;
+        }
+        .text{
+          padding-left: 1rem;
+        }
+    }
+    
+    .bid-wrap{
+      text-align: right;
+        span{
+          font-size: 16px;
+        }
+        .money{
+          color: $orange;
+        }
+        .text{
+          padding-right:.8rem;
+          padding-top:.2rem;
+        }
+    }
+  }
+
+  .more{
+    font-size: 16px;
+    margin-left: 23px;
+    text-align: right;
+  }
+}
+
+@media (max-width: 768px){
+  .list-no-head-flat{
+    .item{
+      height: initial;
+      .bid-wrap{
+        .text{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

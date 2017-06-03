@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+.list-no-header{
+  border-top: 1px solid $orange;
+  .item{
+    border-bottom: 1px solid $orange;
+    .info-wrap{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      margin: .4rem 0;
+      padding: 0;
+      overflow: hidden;
+      .info{
+        h3{
+          margin-top: .4rem;
+          padding: 0 .5rem;
+          line-height: .8rem;
+          font-size: 16px;
+          font-family: "微软雅黑";
+          font-weight: 100;
+          a.emphasis{
+            color: $blue;
+            font-weight: bold;
+            font-size: 20px;
+            float:left;
+            padding-right: .2rem;
+            font-family: tahoma, arial, "Microsoft Yahei", 宋体;
+            &:hover{
+              color: $orange;
+            }
+          }
+          .tag{
+            float: left;
+          }           
+        }
+        .tags-wrap{
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align:center;
+              -ms-flex-align:center;
+                  align-items:center;
+        }
+        .startime,
+        .author,
+        .count{
+          color: #999;
+          font-size: 14px;
+          /* margin-right: 2.2rem;          */
+          padding-left: 1.5rem;
+        }
+        .startime{
+          background: url(../images/author.png) no-repeat -4px -1px;
+        }
+        .author{
+          background: url(../images/author.png) no-repeat -4px -94px;
+        }
+      }             
+      .money{
+        color: $orange;
+        font-size: 29px;
+        margin-top: -.3rem;
+        min-width: 4.6rem;
+        text-align: right;
+        span{
+          font-size: 14px;
+        }
+      }
+    }
+    .operate{
+      padding-top: 1.3rem;
+      text-align: center;
+      span{
+        font-size: 16px;
+      }     
+    }
+    p{
+      font-size: 16px;
+      line-height: 1.4rem;
+      margin-bottom: 0;
+      a{
+        span{
+          color: $blue;
+        }
+      }
+    }
+  }    
+}
+
+@media (max-width: 768px){
+  .list-no-header{
+    .item{
+      .info-wrap{
+        .info{
+          h3{
+            padding-right: 4.6rem;
+          }
+        }
+        .tags-wrap{
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+        }
+        .count,
+        .author{
+          display: block;
+        }
+        .money{
+          position: absolute;
+          right: 15px;
+          height: 43px;
+          overflow: hidden;
+          max-width: 4.6rem;
+        }
+      }
+    }
+  }
+}

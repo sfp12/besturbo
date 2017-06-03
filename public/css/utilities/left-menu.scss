@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+/*左侧的列表*/
+.left-menu{
+  padding-right: .5rem;
+  width: 8.5rem;
+  div{
+    cursor: pointer;
+    overflow: hidden;
+    margin: 1rem 1rem 1rem 0;
+    &.collapsed{
+      height: 1.2rem;
+    }    
+    > span{
+      display: block;
+      font-size: 16px;
+      color: $blue;
+    }
+    a{
+      display: block;
+      font-size: 16px;
+      margin: 1rem 1rem 1rem 0;
+      font-size: 16px;
+      color: $blue;
+      &:hover{
+        color: $orange;
+      }
+      margin-left: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 768px){
+ .left-menu{
+    div{
+      margin: 0;
+      a{
+        margin: 0;
+        margin-left: 1.5rem;
+      }
+    }
+ } 
+}

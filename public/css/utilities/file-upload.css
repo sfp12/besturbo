@@ -1,0 +1,12 @@
+.file-upload {
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 16px; }
+  .file-upload label {
+    padding: 0; }
+  .file-upload input[type=file] {
+    width: 100%; }
+  .file-upload button {
+    margin-top: .3rem; }
+
+/*# sourceMappingURL=file-upload.css.map */

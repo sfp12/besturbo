@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,aAAa;EACX,OAAO,EAAE,WAAW;EACpB,OAAO,EAAE,WAAW;EACpB,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,OAAO;EACrB,aAAa,EAAE,OAAO;EAClB,eAAe,EAAE,aAAa;EAEtC,oBAAM;IACJ,gBAAgB,EAAE,CAAC;IACb,QAAQ,EAAE,CAAC;IACP,IAAI,EAAE,CAAC;IACjB,KAAK,EAAE,IAAI",
+"sources": ["logedin-page.scss"],
+"names": [],
+"file": "logedin-page.css"
+}

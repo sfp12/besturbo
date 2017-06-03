@@ -1,0 +1,129 @@
+
+
+.list-multi-header{
+  font-size: 14px;
+  color: #6b6969;
+  padding-left: 0;
+  
+
+  table{
+    margin-bottom:0px;
+    th{
+      border-top: 1px solid $orange;
+      > div{
+        float:right;
+      }
+    }
+    td{
+      span.text-1{
+        font-size: 12px;
+        color: $orange;
+      }
+      .del{
+        background-image: url(../images/icon.png);
+        background-position: -312px -90px;
+      }
+
+      .edit{
+        background-image: url(../images/icon.png);
+        background-position: -332px -90px;
+      }
+      a.net-service{
+        background-color: #edebeb;
+        width: 3rem;
+        height:1rem;
+        display: inline-block;
+      }
+      ul{
+        padding-left: 0;        
+        li{
+          padding: .4rem;
+          display: inline-block;
+          float:left;
+          text-align: center;
+          border-right: 1px dashed #e6e6e6;
+          margin: .75rem 0;
+          width: 12.5%;
+        }        
+      }        
+    }
+  }
+  
+  .item{
+    &:nth-child(3n+1),
+    &:nth-child(3n+2){
+      border-bottom: 1px solid #ddd;
+    }
+    &:nth-child(3n+3){
+      border-bottom: 1px solid $orange;
+    }
+    &:nth-child(3n+1){
+      li{
+        text-align: center !important;
+      }
+    }
+  }
+  
+}
+
+@media (max-width: 768px){
+
+  .list-multi-header{
+    table{
+      tr{
+        &:nth-child(1){
+          display: none;
+        }
+        &:nth-child(2){
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          td{              
+            &:first-child{
+              min-width: 4.6rem;
+            }
+            &:nth-child(2){
+              min-width:2.8rem
+            }
+            &:nth-child(3){
+              min-width:2.5rem
+            }
+            &:last-child{
+              min-width: 4.6rem;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+                  -ms-flex-direction: column;
+                      flex-direction: column;
+              -webkit-box-align: end;
+                  -ms-flex-align: end;
+                      align-items: flex-end;
+              a{
+                margin-bottom: .4rem;
+                width: 3.6rem;
+                &.btn{
+                  font-size: 14px;
+                }
+              }
+            }
+            -webkit-box-flex:1;
+                -ms-flex:1;
+                    flex:1;
+          }
+        }
+        &:nth-child(3){
+          ul{
+            li{
+              width: initial;
+            }
+          }
+        }          
+      }
+    }
+    
+  }
+
+}
+  

@@ -1,0 +1,14 @@
+.logedin-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .logedin-page .pages {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 100%; }
+
+/*# sourceMappingURL=logedin-page.css.map */

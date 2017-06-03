@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="telephone=no" name="format-detection">
+    <title>首页</title>
+
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <script src="./js/jquery.min.js"></script>
+
+  </head>
+  <body>
+    
+    <div class='container' id='container'>
+      
+      <div class="header" id='header'>
+
+        <div class="pc">
+
+          <a href='#' class='logo'>
+            <img src="./images/logo.png" alt="">
+          </a> 
+  
+          <div class="right">
+            
+            <ul class='top-nav'>
+              <li class="item"><a href="#" alt="" class=""> 明星专家 </a></li>
+              <li><img src='./images/line.gif'></li>
+              <li class="item"><a href="#" alt="" class=""> 热点咨询 </a></li>
+              <li><img src='./images/line.gif'></li>
+              <li class="item"><a href="#" alt="" class=""> 精彩案例 </a></li>
+              <li><img src='./images/line.gif'></li>  
+            </ul>
+
+            <!-- <div class='login unlogin'>
+              <a href="#" alt="" class=""> 
+                <span class='reg-icon'></span>
+                注册
+              </a>
+              <a href="#" alt="" class=""> 
+                <span class='login-icon'></span>
+                登录
+              </a>
+            </div> -->
+
+            <div class="login logined js-logined">
+              <div class="wrap">
+                <span class="glyphicon glyphicon-user"></span>
+                <span class='user-name'>expert123</span>
+                <span class='menu-icon'></span>
+              </div>              
+              <ul class="right-menu hide">
+                <li><a href="#" alt="" class=""> 个人中心 </a></li>
+                <li><a href="#" alt="" class=""> 我的咨询 </a></li>
+                <li><a href="#" alt="" class=""> 案例管理 </a></li>
+                <li><a href="#" alt="" class=""> 专家收藏 </a></li>
+                <li><a href="#" alt="" class=""> 我的评价 </a></li>
+                <li><a href="#" alt="" class=""> 我的提现 </a></li>
+                <li><a href="#" alt="" class=""> 账号设置 </a></li>
+                <li><a href="#" alt="" class=""> 退出系统 </a></li>
+              </ul>
+            </div>
+
+          </div>          
+
+        </div>
+
+        <div class="mobile">
+
+          <div class="con">
+
+            <div class="left">
+              
+              <div class="menu">
+                <button id='left-menu' type='button' class='btn'>
+                  <span class='icon-bar'></span>
+                  <span class='icon-bar'></span>
+                  <span class='icon-bar'></span>
+                </button>
+                <div class="left-menu js-left-menu hide" id='mobile-left-menu'>
+                    <div>
+                        <span>
+                            <span class="glyphicon glyphicon-inbox"></span>
+                            <span class="text">我是客户</span>
+                            <span class=" glyphicon glyphicon-plus hide"></span>
+                            <span class="glyphicon glyphicon-minus hide"></span>
+                        </span>
+                        <a>发布咨询</a>
+                        <a>我的咨询</a>
+                        <a>我的附件</a>
+                        <a>专家收藏</a>
+                        <a>案例收藏</a>
+                        <a>我的评价</a>
+                        <a>我的充值</a>
+                    </div>
+                    <div>
+                        <span>
+                            <span class="glyphicon glyphicon-flag"></span>
+                            <span class="text">我是专家</span>
+                            <span class="glyphicon glyphicon-plus hide"></span>
+                            <span class=" glyphicon glyphicon-minus hide"></span>
+                        </span>
+                        <a>我的兴趣</a>
+                        <a>兴趣列表</a>
+                        <a>我的参与</a>
+                        <a>发布案例</a>
+                        <a>我的提现</a>
+                    </div>
+                </div>
+              </div>
+
+              <a href='#' class='logo'>
+                <img src="./images/logo.png" alt="">
+              </a>
+
+            </div>            
+
+            <div class="login unlogin js-unlogin">
+              <div class="wrap">
+                <span class="glyphicon glyphicon-user"></span>
+                <span class='menu-icon'></span>
+              </div>              
+              <ul class='right-menu hide'>
+                <li>                
+                  <a href="#" alt="" class="">
+                    <!-- <span class='reg-icon'></span> -->
+                    注册
+                  </a>
+                </li>
+                <li>
+                  <a href="#" alt="" class="">
+                    <!-- <span class='login-icon'></span> -->
+                    登录
+                  </a>
+                </li>                
+              </ul>
+            </div>
+
+            <!-- <div class="login logined js-logined">
+              <div class="wrap">
+                <span class="glyphicon glyphicon-user"></span>
+                <span class='user-name'>expert123</span>
+                <span class='menu-icon'></span>
+              </div>              
+              <ul class='right-menu hide'>
+                <li><a href="#" alt="" class=""> 个人中心 </a></li>
+                <li><a href="#" alt="" class=""> 我的咨询 </a></li>
+                <li><a href="#" alt="" class=""> 案例管理 </a></li>
+                <li><a href="#" alt="" class=""> 专家收藏 </a></li>
+                <li><a href="#" alt="" class=""> 我的评价 </a></li>
+                <li><a href="#" alt="" class=""> 我的提现 </a></li>
+                <li><a href="#" alt="" class=""> 账号设置 </a></li>
+                <li><a href="#" alt="" class=""> 退出系统 </a></li>
+              </ul>
+            </div> -->
+
+          </div>          
+
+          <ul class="top-nav">
+            <li class="item">
+              <a href='#'>明星专家</a>
+            </li>
+            <li>
+              <img src='./images/line.gif'>
+            </li>
+            <li class="item">
+              <a href='#'>最新咨询</a>
+            </li>
+            <li>
+              <img src='./images/line.gif'>
+            </li>
+            <li class="item">
+              <a href='#'>热点咨询</a>
+            </li>
+            <li>
+              <img src='./images/line.gif'>
+            </li>
+            <li class="item">
+              <a href='#'>热心专家</a>
+            </li>
+          </ul>    
+
+        </div>
+        
+      </div>
+
+      <div class="body logedin-page">
+        
+          <div class="left-menu js-left-menu" id='pc-left-menu'>
+              <div>
+                  <span>
+                      <span class="glyphicon glyphicon-inbox"></span>
+                      <span class="text">我是客户</span>
+                      <span class=" glyphicon glyphicon-plus hide"></span>
+                      <span class="glyphicon glyphicon-minus hide"></span>
+                  </span>
+                  <a>发布咨询</a>
+                  <a>我的咨询</a>
+                  <a>我的附件</a>
+                  <a>专家收藏</a>
+                  <a>案例收藏</a>
+                  <a>我的评价</a>
+                  <a>我的充值</a>
+              </div>
+              <div>
+                  <span>
+                      <span class="glyphicon glyphicon-flag"></span>
+                      <span class="text">我是专家</span>
+                      <span class="glyphicon glyphicon-plus hide"></span>
+                      <span class=" glyphicon glyphicon-minus hide"></span>
+                  </span>
+                  <a>我的兴趣</a>
+                  <a>兴趣列表</a>
+                  <a>我的参与</a>
+                  <a>发布案例</a>
+                  <a>我的提现</a>
+              </div>
+          </div>
+
+          <!-- 布局需要 以后不需要div.pages -->
+          <div class="pages">            
+          
+              <div class='create-netservice-page'>   
+                  发布咨询
+                  <form action="/NS/CreateNS?Length=2" class="form-horizontal col-md-12" data-ajax="true" data-ajax-method="post" data-ajax-success="successCallback" id="regForm" method="post" novalidate="novalidate">
+                    <input name="__RequestVerificationToken" type="hidden" value="JaBd2ROlNjpnamU290bb5qqMdIxW2DHAmMLKUg6SlykCx0RZn4q-GpgYKnzB-9GVZGv71hFgYEo7Jm9siDBJDRPfU1OHvbWW70htOFLj6co1">        
+                    <h2 class="page-title">发布咨询</h2>
+                    <p class="alert alert-warning fade in info-hint"><strong>提示信息</strong>：您可在此页面发布咨询：在“我的附件”中选择和该咨询相关的附件，选择对专家的技能要求，根据用户名邀请专家（非必填项，被邀请的专家会收到站内消息通知），填写意向酬谢金额（非必填项，仅供参与回复的专家参考）。</p>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label font-dark-grey">标题:</label>
+                        <div class="col-md-10">
+                            <input class="form-control" data-val="true" data-val-length="最大长度不超过50个字符" data-val-length-max="50" data-val-length-min="1" data-val-required="此字段是必填项" id="Title" name="Title" placeholder="请输入标题" type="text" value="">
+                            <span class="field-validation-valid" data-valmsg-for="Title" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label font-dark-grey">内容:</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" cols="20" data-val="true" data-val-length="最大长度不超过5000个字符" data-val-length-max="5000" data-val-length-min="1" data-val-required="此字段是必填项" id="Description" name="Description" placeholder="请输入内容" rows="5"></textarea>
+                            <span class="field-validation-valid" data-valmsg-for="Description" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label font-dark-grey">附件:</label>
+                        <div class="col-md-6">
+                            <a href="#" onclick="ShowFilePick(this)" class="btn btn-primary btn-sm"><span class="fileBtnTitle">选择文件</span></a>
+                            <div>
+                                
+                                <div class="row">
+                                    <ul id="file_tags">
+                                    </ul>
+                                </div>
+                                <span class="field-validation-error"></span>
+                                <div id="SelFileIDs">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label font-dark-grey">技能:</label>
+                        <div class="col-md-10">
+                            <ul id="tags" class='selected-tags'>
+                            </ul>
+                            <div class="row skills">
+                                <div class="row item">
+                                    <h2 class="col-md-2"> 项目承接能力: </h2>
+                                    <ul class="col-md-10 li-wrap">
+                                                <li id="1"> 具备组织管理能力 </li>
+                                                <li id="3"> 可组队开发 </li>
+                                                <li id="4"> 具有独立团队  </li>
+                                                <li id="29"> test </li>
+                                    </ul>
+                                </div>
+                                <div class="row item">
+                                    <h2 class="col-md-2"> 设备对象: </h2>
+                                    <ul class="col-md-10 li-wrap">
+                                                <li id="5"> 燃气轮机  </li>
+                                                <li id="7"> 航空发动机  </li>
+                                                <li id="8"> 压气机  </li>
+                                                <li id="9"> 压缩机 </li>
+                                                <li id="10"> 涡轮 </li>
+                                                <li id="11"> 汽轮机 </li>
+                                                <li id="12"> 风机  </li>
+                                                <li id="14"> 泵  </li>
+                                                <li id="15"> 转子系统  </li>
+                                    </ul>
+                                </div>
+                                <div class="row item">
+                                    <h2 class="col-md-2"> 生产过程: </h2>
+                                    <ul class="col-md-10 li-wrap">
+                                                <li id="16"> 气动设计 </li>
+                                                <li id="17"> 结构设计  </li>
+                                                <li id="18"> 生产管理 </li>
+                                                <li id="19"> 检测服务 </li>
+                                                <li id="20"> 市场销售 </li>
+                                                <li id="21"> 加工 </li>
+                                                <li id="22"> 售后  </li>
+                                                <li id="23"> 运维 </li>
+                                                <li id="24"> 维修 </li>
+                                    </ul>
+                                </div>
+                                <div class="row item">
+                                    <h2 class="col-md-2"> 职务: </h2>
+                                    <ul class="col-md-10 li-wrap">
+                                                <li id="25"> 高层领导 </li>
+                                                <li id="26"> 部门经理 </li>
+                                                <li id="27"> 项目主管 </li>
+                                                <li id="28"> 一般员工  </li>
+                                    </ul>
+                                </div>
+                                <div class="row item">
+                                    <h2 class="col-md-2"> 学科: </h2>
+                                    <ul class="col-md-10 li-wrap">
+                                    </ul>
+                                </div>
+                                <div class="row item">
+                                    <h2 class="col-md-2"> 酒店类别1: </h2>
+                                    <ul class="col-md-10 li-wrap">
+                                    </ul>
+                                </div>
+                                <div class="row item">
+                                    <h2 class="col-md-2"> 待分类: </h2>
+                                    <ul class="col-md-10 li-wrap">
+                                    </ul>
+                                </div>
+                                <div id="SelSkillIDs"></div>
+                            </div>
+                            <script type="text/javascript">
+                                if (!SkillPicker)
+                                    var SkillPicker = {};
+                                // 技能 start
+                                $('.li-wrap li').on('click', function (e) {
+                                    if ($(this).hasClass('disabled')) {
+                                        return false;
+                                    }
+                                    $(this).addClass('disabled');
+                                    var y = $(this).parents('.item').index();
+                                    var x = $(this).index();
+                                    var type = $(this).parents('.item').find('h2').text();
+                                    var text = $(this).text().trim();
+                                    var id = $(this)[0].id;
+                                    $('<li/>').html('<span data=' + id + '>' + type + text + '</span>' + '<i> × </i>')
+                                              .appendTo($('#tags'));
+                                })
+
+                                $('#tags').delegate('i', 'click', function (e) {
+
+                                    $("#" + $(this).prev().attr("data")).removeClass('disabled');
+                                    $(this).parent('li').remove();
+                                })
+                                // 技能 end
+
+                                SkillPicker.PreSubmit = function () {
+                                    $("#SelSkillIDs").children().remove();
+                                    $("#tags li span").each(function (n, ele) {
+                                        $("#SelSkillIDs").append("<input type='hidden' name='" + "SelSkillIDs[" + n + "]" + "' value='" + $(ele).attr("data") + "'>")
+                                    });
+
+                                    if ($("#SelSkillIDs").children().length == 0) {
+                                        ycAlert("请至少选择1项专家技能。");
+                                        return false;
+                                    }
+                                };
+
+                                </script>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label font-dark-grey">邀请:</label>
+                        <div class="col-md-4 user-pick">
+                            <a href="#" onclick="ShowUserPick(this)" class="btn btn-primary btn-sm"><span class="roleBtnTitle">选择专家</span></a>
+                            <input type="text" id="selectUser" class="form-control">
+                            <span class="field-validation-error"></span>
+                            <!-- <div>
+                                <div>
+                                </div>
+                                
+                                <input type="text" id="selectUser" class="form-control">
+                                <span class="field-validation-error"></span>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="form-group money">
+                        <label class="col-md-2 control-label font-dark-grey">意向酬谢金额:</label>
+                        <div class="col-md-2">
+                           <div> <input class="form-control" data-val="true" data-val-number="字段 Quotation 必须是一个数字。" data-val-required="此字段是必填项" id="Quotation" name="Quotation" placeholder="请输入意向金" type="text" value="0"> </div>
+                            <span class="field-validation-valid" data-valmsg-for="Quotation" data-valmsg-replace="true"></span>
+                        </div>
+                        <div class="col-md-2 alignleft"><label class="control-label">（单位：元）</label></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label font-dark-grey"></label>
+                        <div class=" col-md-4">
+                            <input type="submit" id="submit" class="btn btn-primary btn-sm" onclick="return PreSubmitCreateNS()" value="发布咨询">
+                        </div>
+                    </div>
+                  </form>
+                  <div id="mUserPick" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button class="close" aria-hidden="true" type="button" data-dismiss="modal">×</button>
+                                  <h4 class="modal-title"><span class="roleTitle">邀请专家</span></h4>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="row">
+                                      <form class='search' action="/NS/AjaxSearchFilePicker" data-ajax="true" data-ajax-method="Post" data-ajax-mode="replace" data-ajax-update="#divFiles" id="searchFormFile" method="post">                         
+                                        <div class="form-group">
+                                          <label>查询:</label>
+                                          <input class="form-control" id="searchText" name="searchText" placeholder="输入查询内容"type="text" value="">               
+                                          <button class="btn btn-primary pull-right" type="submit">
+                                              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>搜索
+                                          </button>
+                                        </div>                                        
+                                      </form>                        
+                                  </div>
+                                  <div class="row">
+                                      <div id="divUsers">
+                                          <!-- mobile -->
+                                          <ul class='users'>
+                                            <li>
+                                              <div class='top'>
+                                                <span>型明星</span>
+                                                <button class="btn btn-primary btn-xs" onclick="PickUser(42,'卢宇通')"><i class="icon-legal"></i>&nbsp;添加</button>
+                                              </div>
+                                              <div class='bottom'>
+                                                <span class="tag">具备组织管理能力</span>
+                                                <span class="tag">可组队开发</span>
+                                                <span class="tag">具有独立团队 </span>
+                                                <span class="tag">市场销售</span>
+                                                <span class="tag">生产管理</span>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <div class='top'>
+                                                <span>型明星</span>
+                                                <button class="btn btn-primary btn-xs" onclick="PickUser(42,'卢宇通')"><i class="icon-legal"></i>&nbsp;添加</button>
+                                              </div>
+                                              <div class='bottom'>
+                                                <span class="tag">具备组织管理能力</span>
+                                                <span class="tag">可组队开发</span>
+                                                <span class="tag">具有独立团队 </span>
+                                                <span class="tag">市场销售</span>
+                                                <span class="tag">生产管理</span>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <div class='top'>
+                                                <span>型明星</span>
+                                                <button class="btn btn-primary btn-xs" onclick="PickUser(42,'卢宇通')"><i class="icon-legal"></i>&nbsp;添加</button>
+                                              </div>
+                                              <div class='bottom'>
+                                                <span class="tag">具备组织管理能力</span>
+                                                <span class="tag">可组队开发</span>
+                                                <span class="tag">具有独立团队 </span>
+                                                <span class="tag">市场销售</span>
+                                                <span class="tag">生产管理</span>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <div class='top'>
+                                                <span>型明星</span>
+                                                <button class="btn btn-primary btn-xs" onclick="PickUser(42,'卢宇通')"><i class="icon-legal"></i>&nbsp;添加</button>
+                                              </div>
+                                              <div class='bottom'>
+                                                <span class="tag">具备组织管理能力</span>
+                                                <span class="tag">可组队开发</span>
+                                                <span class="tag">具有独立团队 </span>
+                                                <span class="tag">市场销售</span>
+                                                <span class="tag">生产管理</span>
+                                              </div>
+                                            </li>
+                                          </ul>
+                                          <!-- pc -->
+                                          <table class="table table-striped table table-hover users">
+                                              <tbody>
+                                                  <tr>
+                                                      <th>用户名<div><img src="./images/line.gif"></div></th>
+                                                      <th>专家技能<div><img src="./images/line.gif"></div></th>
+                                                      <th width="60"><strong>&nbsp;操作&nbsp;</strong></th>
+                                                  </tr>
+
+                                                      <tr>
+                                                          <td>卢宇通</td>
+                                                          <td>
+                                                                      <span class="tag">具备组织管理能力</span>
+                                                                      <span class="tag">可组队开发</span>
+                                                                      <span class="tag">具有独立团队 </span>
+                                                                      <span class="tag">市场销售</span>
+                                                                      <span class="tag">生产管理</span>
+                                                          </td>
+                                                          <td nowrap="nowrap">
+                                                              <button class="btn btn-primary btn-xs" onclick="PickUser(42,'卢宇通')"><i class="icon-legal"></i>&nbsp;添加</button>
+                                                          </td>
+                                                      </tr>
+                                                      <tr>
+                                                          <td>小鱼</td>
+                                                          <td>
+                                                                      <span class="tag">具备组织管理能力</span>
+                                                                      <span class="tag">可组队开发</span>
+                                                                      <span class="tag">具有独立团队 </span>
+                                                                      <span class="tag">燃气轮机 </span>
+                                                                      <span class="tag">航空发动机 </span>
+                                                                      <span class="tag">压气机 </span>
+                                                                      <span class="tag">压缩机</span>
+                                                                      <span class="tag">生产管理</span>
+                                                                      <span class="tag">结构设计 </span>
+                                                                      <span class="tag">气动设计</span>
+                                                                      <span class="tag">高层领导</span>
+                                                                      <span class="tag">部门经理</span>
+                                                                      <span class="tag">项目主管</span>
+                                                                      <span class="tag">检测服务</span>
+                                                                      <span class="tag">一般员工 </span>
+                                                                      <span class="tag">市场销售</span>
+                                                                      <span class="tag">涡轮</span>
+                                                                      <span class="tag">汽轮机</span>
+                                                          </td>
+                                                          <td nowrap="nowrap">
+                                                              <button class="btn btn-primary btn-xs" onclick="PickUser(41,'小鱼')"><i class="icon-legal"></i>&nbsp;添加</button>
+                                                          </td>
+                                                      </tr>
+                                                      <tr>
+                                                          <td>我是砖家我骄傲</td>
+                                                          <td>
+                                                                      <span class="tag">气动设计</span>
+                                                                      <span class="tag">燃气轮机 </span>
+                                                                      <span class="tag">具有独立团队 </span>
+                                                                      <span class="tag">高层领导</span>
+                                                          </td>
+                                                          <td nowrap="nowrap">
+                                                              <button class="btn btn-primary btn-xs" onclick="PickUser(40,'我是砖家我骄傲')"><i class="icon-legal"></i>&nbsp;添加</button>
+                                                          </td>
+                                                      </tr>
+                                                      <tr>
+                                                          <td>wzhaopower</td>
+                                                          <td>
+                                                                      <span class="tag">具备组织管理能力</span>
+                                                                      <span class="tag">航空发动机 </span>
+                                                                      <span class="tag">燃气轮机 </span>
+                                                                      <span class="tag">压气机 </span>
+                                                                      <span class="tag">可组队开发</span>
+                                                                      <span class="tag">结构设计 </span>
+                                                                      <span class="tag">生产管理</span>
+                                                                      <span class="tag">气动设计</span>
+                                                          </td>
+                                                          <td nowrap="nowrap">
+                                                              <button class="btn btn-primary btn-xs" onclick="PickUser(39,'wzhaopower')"><i class="icon-legal"></i>&nbsp;添加</button>
+                                                          </td>
+                                                      </tr>
+                                                      <tr>
+                                                          <td>fulaoshi</td>
+                                                          <td>
+                                                                      <span class="tag">气动设计</span>
+                                                                      <span class="tag">航空发动机 </span>
+                                                                      <span class="tag">具备组织管理能力</span>
+                                                                      <span class="tag">结构设计 </span>
+                                                                      <span class="tag">部门经理</span>
+                                                                      <span class="tag">高层领导</span>
+                                                          </td>
+                                                          <td nowrap="nowrap">
+                                                              <button class="btn btn-primary btn-xs" onclick="PickUser(38,'fulaoshi')"><i class="icon-legal"></i>&nbsp;添加</button>
+                                                          </td>
+                                                      </tr>
+                                              </tbody>
+                                          </table>
+                                          <div class="row">
+                                              <div class="col-md-12">
+                                                  <div class="pagination pull-right pagination-sm">
+                                                      <!--MvcPager v3.0.1 for ASP.NET MVC 4.0+ © 2009-2015 Webdiyer (http://en.webdiyer.com)-->
+                                                      <ul class="pagination pagination-sm" data-ajax="true" data-ajax-dataformid="#searchFormUser" data-ajax-method="Post" data-ajax-update="#divUsers" data-gotobutton="#goToBtn" data-invalidpageerrmsg="Page index is invalid" data-outrangeerrmsg="Page index is out of range" data-pagecount="7" data-pageindexbox="#pageIndexBox" data-pageparameter="idUser" data-pagerid="Webdiyer.MvcPager" data-urlformat="/NS/AjaxSearchUserPicker?idUser=__idUser__" id="bootstrappager2"><li class="disabled"><a>首页</a></li><li class="disabled"><a>上一页</a></li><li class="active"><a href="#">1</a></li><li><a data-pageindex="2" href="/NS/AjaxSearchUserPicker?idUser=2">2</a></li><li><a data-pageindex="3" href="/NS/AjaxSearchUserPicker?idUser=3">3</a></li><li><a data-pageindex="4" href="/NS/AjaxSearchUserPicker?idUser=4">4</a></li><li><a data-pageindex="5" href="/NS/AjaxSearchUserPicker?idUser=5">5</a></li><li><a data-pageindex="6" href="/NS/AjaxSearchUserPicker?idUser=6">...</a></li><li><a data-pageindex="2" href="/NS/AjaxSearchUserPicker?idUser=2">下一页</a></li><li><a data-pageindex="7" href="/NS/AjaxSearchUserPicker?idUser=7">末页</a></li></ul>
+                                                      <!--MvcPager v3.0.1 for ASP.NET MVC 4.0+ © 2009-2015 Webdiyer (http://en.webdiyer.com)-->
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <script type="text/javascript">
+                                              function PickUser(LoginUserId, loginName) {
+                                                  if(UserPickerConfig.SelectCount == null || UserPickerConfig.SelectCount == "")
+                                                      UserPickerConfig.SelectCount = 10000;//无限制
+                                                  //if ($("#pickedUser").children().length > UserPickerConfig.SelectCount-1) {
+
+                                                  //    ycAlert("最多可添加"+UserPickerConfig.SelectCount+"位"+UserPickerConfig.Title +"！");
+                                                  //    return;
+                                                  //}
+
+                                                  var isExist = false;
+                                                  var userNames = $("#pickedUser").val().split(";"); 
+                                                  if (userNames.length > UserPickerConfig.SelectCount-1) {
+
+                                                      ycAlert("最多可添加"+UserPickerConfig.SelectCount+"位"+UserPickerConfig.Title +"！");
+                                                      return;
+                                                  }
+
+
+                                                  for (var n in userNames){
+                                                      if (userNames[n] == loginName) {
+                                                          ycAlert("此"+UserPickerConfig.Title+"已存在！");
+                                                          isExist = true;
+                                                          return;
+                                                      }
+                                                  };
+                                                  if (isExist == true)
+                                                      return;
+                                                  if($("#pickedUser").val().trim()=="")
+                                                  {
+                                                      $("#pickedUser").val(loginName);
+                                                  }
+                                                  else
+                                                      $("#pickedUser").val($("#pickedUser").val()+";"+loginName);
+                                              }
+                                          </script>
+                                      </div>
+                                      <script src="/plugin/MvcPager/MvcPager.js"></script>
+                                  </div>
+                                  <div class="row">
+                                      <input type="text" id="pickedUser" class="form-control">
+                                  </div>
+                              </div>
+                              <div class="modal-footer">
+                                  <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button> <button class="btn btn-primary" data-dismiss="modal" onclick="SubmitPickUser()">提交</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <script type="text/javascript">
+                      function ShowUserPick(obj) {
+                          $("#mUserPick").modal('show');
+                      }
+                  </script>
+
+                  <div id="mFilePick" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button class="close" aria-hidden="true" type="button" data-dismiss="modal">×</button>
+                                  <h4 class="modal-title"><span class="fileTitle">请选择我的附件中的文件</span></h4>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="row">
+                                      <form class='search' action="/NS/AjaxSearchFilePicker" data-ajax="true" data-ajax-method="Post" data-ajax-mode="replace" data-ajax-update="#divFiles" id="searchFormFile" method="post">                         
+                                        <div class="form-group">
+                                          <label>查询:</label>
+                                          <input class="form-control" id="searchText" name="searchText" placeholder="输入查询内容"type="text" value="">               
+                                          <button class="btn btn-primary pull-right" type="submit">
+                                              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>搜索
+                                          </button>
+                                        </div>                                         
+                                      </form>                        
+                                  </div>
+                                  <!-- 不知道做什么用的 -->
+                                  <div class="col-lg-12" style='display: none;'>
+                                      <ul id="filePick_tags">
+                                      </ul>
+                                  </div>
+                                  <div class="row">
+                                      <div id="divFiles">
+                                          <!-- mobile -->
+                                          <ul class="files">
+                                            <li>
+                                              <p class='top'>test.aspx</p>
+                                              <div class='bottom'>
+                                                <span>2017/1/23</span>
+                                                <span>29kb</span>
+                                                <button class="btn btn-primary btn-xs" onclick="PickFile(69,'test.aspx')">添加</button>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <p class='top'>城镇人口人身损害赔偿计算表Microsoft-Excel-工作表-(2).xls</p>
+                                              <div class='bottom'>
+                                                <span>2017/1/23</span>
+                                                <span>29kb</span>
+                                                <button class="btn btn-primary btn-xs" onclick="PickFile(69,'test.aspx')">添加</button>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <p class='top'>test.aspx</p>
+                                              <div class='bottom'>
+                                                <span>2017/1/23</span>
+                                                <span>29kb</span>
+                                                <button class="btn btn-primary btn-xs" onclick="PickFile(69,'test.aspx')">添加</button>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <p class='top'>城镇人口人身损害赔偿计算表Microsoft-Excel-工作表-(2).xls</p>
+                                              <div class='bottom'>
+                                                <span>2017/1/23</span>
+                                                <span>29kb</span>
+                                                <button class="btn btn-primary btn-xs" onclick="PickFile(69,'test.aspx')">添加</button>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <p class='top'>test.aspx</p>
+                                              <div class='bottom'>
+                                                <span>2017/1/23</span>
+                                                <span>29kb</span>
+                                                <button class="btn btn-primary btn-xs" onclick="PickFile(69,'test.aspx')">添加</button>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <p class='top'>城镇人口人身损害赔偿计算表Microsoft-Excel-工作表-(2).xls</p>
+                                              <div class='bottom'>
+                                                <span>2017/1/23</span>
+                                                <span>29kb</span>
+                                                <button class="btn btn-primary btn-xs" onclick="PickFile(69,'test.aspx')">添加</button>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <p class='top'>test.aspx</p>
+                                              <div class='bottom'>
+                                                <span>2017/1/23</span>
+                                                <span>29kb</span>
+                                                <button class="btn btn-primary btn-xs" onclick="PickFile(69,'test.aspx')">添加</button>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <p class='top'>城镇人口人身损害赔偿计算表Microsoft-Excel-工作表-(2).xls</p>
+                                              <div class='bottom'>
+                                                <span>2017/1/23</span>
+                                                <span>29kb</span>
+                                                <button class="btn btn-primary btn-xs" onclick="PickFile(69,'test.aspx')">添加</button>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <p class='top'>test.aspx</p>
+                                              <div class='bottom'>
+                                                <span>2017/1/23</span>
+                                                <span>29kb</span>
+                                                <button class="btn btn-primary btn-xs" onclick="PickFile(69,'test.aspx')">添加</button>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <p class='top'>城镇人口人身损害赔偿计算表Microsoft-Excel-工作表-(2).xls</p>
+                                              <div class='bottom'>
+                                                <span>2017/1/23</span>
+                                                <span>29kb</span>
+                                                <button class="btn btn-primary btn-xs" onclick="PickFile(69,'test.aspx')">添加</button>
+                                              </div>
+                                            </li>
+                                          </ul>
+                                          <!-- pc -->
+                                          <table class="table files table-striped table table-hover">
+                                              <tbody>
+                                                  <tr>
+                                                      <th>文件名<div><img src="./images/line.gif"></div></th>
+                                                      <th>上传时间<div><img src="./images/line.gif"></div></th>
+                                                      <th>大小(KB)<div><img src="./images/line.gif"></div></th>
+                                                      <th width="60"><strong>&nbsp;操作&nbsp;</strong></th>
+                                                  </tr>
+                                                  <tr>
+                                                      <td>test.aspx</td>
+                                                      <td>
+                                                          2017/1/23
+                                                      </td>
+                                                      <td>
+                                                          29
+                                                      </td>
+                                                      <td nowrap="nowrap">
+                                                          <button class="btn btn-primary btn-xs" onclick="PickFile(69,'test.aspx')">添加</button>
+                                                      </td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td>systemFile.aspx</td>
+                                                      <td>
+                                                          2017/1/23
+                                                      </td>
+                                                      <td>
+                                                          6
+                                                      </td>
+                                                      <td nowrap="nowrap">
+                                                          <button class="btn btn-primary btn-xs" onclick="PickFile(68,'systemFile.aspx')">添加</button>
+                                                      </td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td>城镇人口人身损害赔偿计算表Microsoft-Excel-工作表-(2).xls</td>
+                                                      <td>
+                                                          2017/1/23
+                                                      </td>
+                                                      <td>
+                                                          21
+                                                      </td>
+                                                      <td nowrap="nowrap">
+                                                          <button class="btn btn-primary btn-xs" onclick="PickFile(65,'城镇人口人身损害赔偿计算表Microsoft-Excel-工作表-(2).xls')">添加</button>
+                                                      </td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td>t0124fad21b420d3a88.png</td>
+                                                      <td>
+                                                          2016/12/4
+                                                      </td>
+                                                      <td>
+                                                          3
+                                                      </td>
+                                                      <td nowrap="nowrap">
+                                                          <button class="btn btn-primary btn-xs" onclick="PickFile(55,'t0124fad21b420d3a88.png')">添加</button>
+                                                      </td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td>737344dd8934cc52da9f7f85f2627abb_XS.jpg</td>
+                                                      <td>
+                                                          2016/12/4
+                                                      </td>
+                                                      <td>
+                                                          27
+                                                      </td>
+                                                      <td nowrap="nowrap">
+                                                          <button class="btn btn-primary btn-xs" onclick="PickFile(54,'737344dd8934cc52da9f7f85f2627abb_XS.jpg')">添加</button>
+                                                      </td>
+                                                  </tr>
+                                              </tbody>
+                                          </table>
+                                          <div class="row">
+                                              <div class="col-md-12">
+                                                  <div class="pagination pull-right pagination-sm">               
+                                                      <!--MvcPager v3.0.1 for ASP.NET MVC 4.0+ © 2009-2015 Webdiyer (http://en.webdiyer.com)-->
+                                                      <ul class="pagination pagination-sm" data-ajax="true" data-ajax-dataformid="#searchFormFile" data-ajax-method="Post" data-ajax-update="#divFiles" data-gotobutton="#goToBtn" data-invalidpageerrmsg="Page index is invalid" data-outrangeerrmsg="Page index is out of range" data-pagecount="0" data-pageindexbox="#pageIndexBox" data-pageparameter="idFile" data-pagerid="Webdiyer.MvcPager" data-urlformat="/NS/AjaxSearchFilePicker?idFile=__idFile__" id="bootstrappager2"></ul>
+                                                      <!--MvcPager v3.0.1 for ASP.NET MVC 4.0+ © 2009-2015 Webdiyer (http://en.webdiyer.com)-->
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="row">
+                                              <ul id="tags"></ul>
+                                          </div>
+                                          <script type="text/javascript">
+                                              function PickFile(fileId, fileName) {
+                                                  if (FilePickerConfig.SelectCount == null || FilePickerConfig.SelectCount == "")
+                                                      FilePickerConfig.SelectCount = 10000;//无限制
+                                                  if ($("#filePick_tags li span").length > FilePickerConfig.SelectCount-1) {
+                                                      ycAlert("最多可添加"+FilePickerConfig.SelectCount+"个附件！");
+                                                      return;
+                                                  }
+
+                                                  var isExist = false;
+                                                  $("#filePick_tags li span").each(function(n, ele){   
+                                                      if ($(ele).attr("data") == fileId) {
+                                                          ycAlert("此文件已存在！");
+                                                          isExist = true;
+                                                          return;
+                                                      }
+                                                  });
+                                                             
+                                                  if (isExist == true)
+                                                      return;
+
+                                                  $('<li/>').html('<span data=' + fileId + '>' + fileName + '</span>' + '<i> × </i>')
+                                                            .appendTo($('#filePick_tags'));
+                                              }
+                                          </script>
+                                      </div>
+                                      <script src="/plugin/MvcPager/MvcPager.js"></script>
+                                  </div>
+                              </div>
+                              <div class="modal-footer">
+                                  <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button> <button class="btn btn-primary" data-dismiss="modal" onclick="SyncPickFile()">提交</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <script type="text/javascript">
+                      function ShowFilePick(obj) {
+                          $("#mFilePick").modal('show');
+                          $("#filePick_tags").html($("#file_tags").html());
+                      }
+                  </script>
+
+              </div>
+
+              <div class="">
+                我的咨询
+
+                <div class="list-multi-header">              
+                
+                    <table class="table table-striped table table-hover">
+                        <tbody>
+                            <tr>
+                                <th>项目标题<div><img src="./images/line.gif"></div></th>
+                                <th>意向酬谢金<div><img src="./images/line.gif"></div></th>
+                                
+                                <th>参与人数<div><img src="./images/line.gif"></div></th>
+
+                                <th width="80">操作</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    我的资讯2我的资讯2我的资讯2我的资讯2我的资讯2
+                                    <br>
+                                    <span class='text-1' id="top26" title="2017/2/7 23:54:30">置顶</span>
+                                    <span class='text-1' id="bid26">竞价</span>
+                                </td>
+                                <td>0</td>
+                                
+                                <td>0</td>
+                                <td nowrap="nowrap" id="ope26">
+                                    
+                                        <a href="javascript:TopNS(26)" class="btn btn-round btn-primary btn-xs"><span class="glyphicon glyphicon-upload" aria-hidden="true"></span>&nbsp;置顶</a>
+                                        <a href="/User/BidNS?nsID=26" class="btn btn-round btn-primary btn-xs"><span class="glyphicon glyphicon-upload" aria-hidden="true"></span>&nbsp;竞价</a>
+                                        <a href="javascript:CloseNS(26)" class="btn btn-round btn-primary btn-xs"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>&nbsp;关闭</a>
+                                        <a href="/NS/EditNS?serviceID=26" class="btn btn-round btn-primary btn-xs"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span>&nbsp;编辑</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="6" class="item clearfix expert-wrap">
+                                    <ul>
+                                            <li>
+                                                <div>
+                                                    <p><a href="/Expert/ExpertDetail?userID=4" target="_blank">bob</a></p>
+                                                    <a class="net-service" href="/NS/NSCByA?serviceID=26&amp;partBID=4">进入咨询</a>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </td>
+                            </tr>                     
+                        </tbody>
+                    </table>
+                    <table class="table table-striped table table-hover">
+                        <tbody>
+                            <tr>
+                                <th>项目标题<div><img src="./images/line.gif"></div></th>
+                                <th>意向酬谢金<div><img src="./images/line.gif"></div></th>
+                                
+                                <th>参与人数<div><img src="./images/line.gif"></div></th>
+
+                                <th width="80">操作</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    测试12sdss
+                                    <span class='text-1' id="top10" title=""></span>
+                                    <span class='text-1' id="bid10"></span>
+                                </td>
+                                <td>22</td>
+                                
+                                <td>0</td>
+                                <td nowrap="nowrap" id="ope10">
+                                    
+                                        <a href="javascript:TopNS(10)" class="btn btn-round btn-primary btn-xs"><span class="glyphicon glyphicon-upload" aria-hidden="true"></span>&nbsp;置顶</a>
+                                        <a href="/User/BidNS?nsID=10" class="btn btn-round btn-primary btn-xs"><span class="glyphicon glyphicon-upload" aria-hidden="true"></span>&nbsp;竞价</a>
+                                        <a href="javascript:CloseNS(10)" class="btn btn-round btn-primary btn-xs"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>&nbsp;关闭</a>
+                                        <a href="/NS/EditNS?serviceID=10" class="btn btn-round btn-primary btn-xs"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span>&nbsp;编辑</a>
+                                </td>
+                            </tr>                         
+                        </tbody>
+                    </table>
+                    <table class="table table-striped table table-hover">
+                        <tbody>
+                            <tr>
+                                <th>项目标题<div><img src="./images/line.gif"></div></th>
+                                <th>意向酬谢金<div><img src="./images/line.gif"></div></th>
+                                
+                                <th>参与人数<div><img src="./images/line.gif"></div></th>
+
+                                <th width="80">操作</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    我的资讯2
+                                    <br>
+                                    <span class='text-1' id="top26" title="2017/2/7 23:54:30">置顶</span>
+                                    <span class='text-1' id="bid26">竞价</span>
+                                </td>
+                                <td>0</td>
+                                
+                                <td>0</td>
+                                <td nowrap="nowrap" id="ope26">
+                                    
+                                        <a href="javascript:TopNS(26)" class="btn btn-round btn-primary btn-xs"><span class="glyphicon glyphicon-upload" aria-hidden="true"></span>&nbsp;置顶</a>
+                                        <a href="/User/BidNS?nsID=26" class="btn btn-round btn-primary btn-xs"><span class="glyphicon glyphicon-upload" aria-hidden="true"></span>&nbsp;竞价</a>
+                                        <a href="javascript:CloseNS(26)" class="btn btn-round btn-primary btn-xs"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>&nbsp;关闭</a>
+                                        <a href="/NS/EditNS?serviceID=26" class="btn btn-round btn-primary btn-xs"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span>&nbsp;编辑</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="6" class="item clearfix expert-wrap">
+                                    <ul>
+                                            <li>
+                                                <div>
+                                                    <p><a href="/Expert/ExpertDetail?userID=4" target="_blank">bob</a></p>
+                                                    <a class="net-service" href="/NS/NSCByA?serviceID=26&amp;partBID=4">进入咨询</a>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </td>
+                            </tr>                     
+                        </tbody>
+                    </table>
+
+                </div>
+                
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="pagination pull-right pagination-sm">
+                            <!--MvcPager v3.0.1 for ASP.NET MVC 4.0+ © 2009-2015 Webdiyer (http://en.webdiyer.com)-->
+                            <ul class="pagination pagination-sm" data-ajax="true" data-ajax-update="#divNS" data-gotobutton="#goToBtn" data-invalidpageerrmsg="Page index is invalid" data-outrangeerrmsg="Page index is out of range" data-pagecount="2" data-pageindexbox="#pageIndexBox" data-pageparameter="id" data-pagerid="Webdiyer.MvcPager" data-urlformat="/User/MyNS/__id__" id="bootstrappager2"><li class="disabled"><a>首页</a></li><li class="disabled"><a>上一页</a></li><li class="active"><a href="#">1</a></li><li><a data-pageindex="2" href="/User/MyNS/2">2</a></li><li><a data-pageindex="2" href="/User/MyNS/2">下一页</a></li><li><a data-pageindex="2" href="/User/MyNS/2">末页</a></li></ul>
+                            <!--MvcPager v3.0.1 for ASP.NET MVC 4.0+ © 2009-2015 Webdiyer (http://en.webdiyer.com)-->
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="myarchive-list-page">
+                我的附件
+                <div class="file-upload">
+                    <label class="col-md-1 col-xs-2 control-label font-dark-grey" for="attachment">附件:</label>
+                    <div class="col-md-8 col-xs-10 wrap">
+                        <input id="fileUpload" name="fileUpload" type="file">
+                    </div>               
+                    <button id="btnUpload" class="btn btn-primary" type="button"><span class="glyphicon glyphicon-upload" aria-hidden="true"></span>上传</button>
+                </div>                
+                <form id="form1" class='list-single-header clearfix'>                 
+                    <div id="divArc">
+                        <div class='clearfix'>
+                          <button onclick="DelArcs()" class="btn btn-primary pull-right cancel-all del-btn">
+                            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+                          </button>
+                        </div>
+                        <ul>
+                          <li>
+                            <div class="top">
+                              <input type="checkbox" name="SelArchiveIDs[0]" value="69">
+                              <span>城镇人口人身损害赔偿计算表Microsoft-Excel-工作表-(2).xls城镇人口人身损害赔偿计算表Microsoft-Excel-工作表-(2).xls城镇人口人身损害赔偿计算表Microsoft-Excel-工作表-(2).xls城镇人口人身损害赔偿计算表Microsoft-Excel-工作表-(2).xls城镇人口人身损害赔偿计算表Microsoft-Excel-工作表-(2).xls城镇人口人身损害赔偿计算表Microsoft-Excel-工作表-(2).xls</span>
+                            </div>
+                            <div class="bot">
+                              <span>2017/1/23</span>
+                              <span>29kb</span>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="top">
+                              <input type="checkbox" name="SelArchiveIDs[0]" value="69">
+                              <span>城镇人口人身损害赔偿计算表Microsoft-Excel-工作表-(2).xls</span>
+                            </div>
+                            <div class="bot">
+                              <span>2017/1/23</span>
+                              <span>29kb</span>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="top">
+                              <input type="checkbox" name="SelArchiveIDs[0]" value="69">
+                              <span>Microsoft-Excel(2)Microsoft-Excel(2)Microsoft-Excel(2)Microsoft-Excel(2).xls</span>
+                            </div>
+                            <div class="bot">
+                              <span>2017/1/23</span>
+                              <span>29kb</span>
+                            </div>
+                          </li>
+                        </ul>
+                        <table class="table table-striped table table-hover" style="margin-bottom:0px">
+                            <tbody>
+                                <tr>
+                                    <th></th>
+                                    <th>序号<div><img src="./images/line.gif"></div></th>
+                                    <th>名称<div><img src="./images/line.gif"></div></th>
+                                    <th>上传时间<div><img src="./images/line.gif"></div></th>                                
+                                    <th>大小（KB）</th>
+                                    <th width="80"><strong>&nbsp;&nbsp;</strong></th>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="SelArchiveIDs[0]" value="69"></td>
+                                    <td>69</td>
+                                    <td>test.aspx</td>
+                                    <td>2017/1/23</td>
+                                    <td>29</td>
+                                    <td nowrap="nowrap">                                   
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="SelArchiveIDs[1]" value="68"></td>
+                                    <td>68</td>
+                                    <td>systemFile.aspx</td>
+                                    <td>2017/1/23</td>
+                                    <td>6</td>
+                                    <td nowrap="nowrap">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="SelArchiveIDs[2]" value="65"></td>
+                                    <td>65</td>
+                                    <td>城镇人口人身损害赔偿计算表Microsoft-Excel-工作表-(2).xls</td>
+                                    <td>2017/1/23</td>
+                                    <td>21</td>
+                                    <td nowrap="nowrap">
+                                        
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="SelArchiveIDs[3]" value="55"></td>
+                                    <td>55</td>
+                                    <td>t0124fad21b420d3a88.pngt0124fad21b420d3a88.pngt0124fad21b420d3a88.pngt0124fad21b420d3a88.pngt0124fad21b420d3a88.pngt0124fad21b420d3a88.pngt0124fad21b420d3a88.pngt0124fad21b420d3a88.pngt0124fad21b420d3a88.pngt0124fad21b420d3a88.pngt0124fad21b420d3a88.png</td>
+                                    <td>2016/12/4</td>
+                                    <td>3</td>
+                                    <td nowrap="nowrap">
+                                        
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="SelArchiveIDs[4]" value="54"></td>
+                                    <td>54</td>
+                                    <td>737344dd8934cc52da9f7f85f2627abb_XS.jpg</td>
+                                    <td>2016/12/4</td>
+                                    <td>27</td>
+                                    <td nowrap="nowrap">
+                                        
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="SelArchiveIDs[5]" value="53"></td>
+                                    <td>53</td>
+                                    <td>8fe3e0f34d3083cba6fe73d62a783d7f_XS.jpg</td>
+                                    <td>2016/12/4</td>
+                                    <td>29</td>
+                                    <td nowrap="nowrap">
+                                        
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="SelArchiveIDs[6]" value="52"></td>
+                                    <td>52</td>
+                                    <td>8fe3e0f34d3083cba6fe73d62a783d7f_XS.jpg</td>
+                                    <td>2016/12/4</td>
+                                    <td>29</td>
+                                    <td nowrap="nowrap">
+                                        
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="SelArchiveIDs[7]" value="51"></td>
+                                    <td>51</td>
+                                    <td>8fe3e0f34d3083cba6fe73d62a783d7f_XS.jpg</td>
+                                    <td>2016/12/4</td>
+                                    <td>29</td>
+                                    <td nowrap="nowrap">
+                                        
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="SelArchiveIDs[8]" value="50"></td>
+                                    <td>50</td>
+                                    <td>8fe3e0f34d3083cba6fe73d62a783d7f_XS.jpg</td>
+                                    <td>2016/12/4</td>
+                                    <td>29</td>
+                                    <td nowrap="nowrap">
+                                        
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="SelArchiveIDs[9]" value="49"></td>
+                                    <td>49</td>
+                                    <td>8fe3e0f34d3083cba6fe73d62a783d7f_XS.jpg</td>
+                                    <td>2016/12/4</td>
+                                    <td>29</td>
+                                    <td nowrap="nowrap">
+                                        
+                                        
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="pagination pull-right pagination-sm">                
+                                    <!--MvcPager v3.0.1 for ASP.NET MVC 4.0+ © 2009-2015 Webdiyer (http://en.webdiyer.com)-->
+                                    <ul class="pagination pagination-sm" data-ajax="true" data-ajax-update="#divArc" data-gotobutton="#goToBtn" data-invalidpageerrmsg="Page index is invalid" data-outrangeerrmsg="Page index is out of range" data-pagecount="3" data-pageindexbox="#pageIndexBox" data-pageparameter="id" data-pagerid="Webdiyer.MvcPager" data-urlformat="/User/MyArc/__id__" id="bootstrappager2"><li class="disabled"><a>首页</a></li><li class="disabled"><a>上一页</a></li><li class="active"><a href="#">1</a></li><li><a data-pageindex="2" href="/User/MyArc/2">2</a></li><li><a data-pageindex="3" href="/User/MyArc/3">3</a></li><li><a data-pageindex="2" href="/User/MyArc/2">下一页</a></li><li><a data-pageindex="3" href="/User/MyArc/3">末页</a></li></ul>
+                                    <!--MvcPager v3.0.1 for ASP.NET MVC 4.0+ © 2009-2015 Webdiyer (http://en.webdiyer.com)-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        function DelArc(archiveID) {
+                            ycConfirm("是否删除此附件？", ConfirmDelArc, archiveID);
+                        }
+
+                        function ConfirmDelArc(archiveID) {
+                            window.location.href = '/User/DelArc' + '?archiveID=' + archiveID;
+                        }
+                    </script>
+                </form> 
+                <script src="/plugin/MvcPager/MvcPager.js"></script>
+              </div>
+
+              <div class="myfavorateexperts-page">
+                专家收藏
+
+                <div class="row">
+                  <form action="/User/AjaxSearchMyExpertPicker" class="form-inline search" data-ajax="true" data-ajax-method="Post" data-ajax-mode="replace" data-ajax-update="#divUsers" id="searchFormUser" method="post">            
+                    <div class="form-group">
+                      <label for="expert-name">查询:</label>
+                      <input class="form-control" id="searchText" name="searchText" type="text" placeholder="请输入查询关键字">
+                      <button class="btn btn-primary pull-right" type="submit">
+                          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>查询
+                      </button>
+                    </div>
+                    
+                  </form>    
+                </div>
+
+                <div id="divUsers" class=''>
+                    <div class="row">
+                        <div class="list-no-header">
+                            <div class="item" id="user5">
+                                <div class="info-wrap">
+                                    <div class='info'>
+                                        <h3> <a href="/User/UserStatics?userID=5" target="_blank">test1</a> <a href="#" alt="" class="exp-icon-1 font-dark-grey a-hover"> </a></h3>
+                                        <div class="tags-wrap">
+                                            <h3> 标签: </h3>
+                                            <a href="#" alt="" class="tag"> 可组队开发  </a>
+                                            <a href="#" alt="" class="tag"> 具有独立团队   </a>
+                                            <a href="#" alt="" class="tag"> 燃气轮机   </a>
+                                        </div>
+                                    </div>
+                                    <div class="operate">                                      
+                                        <div>
+                                            <span>收藏：</span><button type="button" class="btn btn-primary" onclick="CancelFavExpert(5)">取消</button>
+                                        </div>
+                                    </div>                                 
+                                </div>                                
+                            </div>
+                            <div class="item" id="user6">
+                                <div class="info-wrap">
+                                    <div class='info'>
+                                        <h3> <a href="/User/UserStatics?userID=6" target="_blank">test2</a> </h3>
+                                        <a href="#" alt="" class="exp-icon-1 font-dark-grey a-hover"> </a>
+                                        <div class="tags-wrap">
+                                            <h3> 标签: </h3>
+                                                <a href="#" alt="" class="tag"> 航空发动机   </a>
+                                                <a href="#" alt="" class="tag"> 压气机   </a>
+                                        </div>
+                                    </div>
+                                    <div class="operate">                              
+                                        <div>
+                                            <span>收藏：</span><button type="button" class="btn btn-primary" onclick="CancelFavExpert(6)">取消</button>
+                                        </div>
+                                    </div>                                  
+                                </div>                                
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="pagination pull-right pagination-sm">                 
+                                <!--MvcPager v3.0.1 for ASP.NET MVC 4.0+ © 2009-2015 Webdiyer (http://en.webdiyer.com)-->
+                                <ul class="pagination pagination-sm" data-ajax="true" data-ajax-dataformid="#searchFormUser" data-ajax-method="Post" data-ajax-update="#divUsers" data-gotobutton="#goToBtn" data-invalidpageerrmsg="Page index is invalid" data-outrangeerrmsg="Page index is out of range" data-pagecount="2" data-pageindexbox="#pageIndexBox" data-pageparameter="idUser" data-pagerid="Webdiyer.MvcPager" data-urlformat="/User/AjaxSearchMyExpertPicker?idUser=__idUser__" id="bootstrappager2"><li class="disabled"><a>首页</a></li><li class="disabled"><a>上一页</a></li><li class="active"><a href="#">1</a></li><li><a data-pageindex="2" href="/User/AjaxSearchMyExpertPicker?idUser=2">2</a></li><li><a data-pageindex="2" href="/User/AjaxSearchMyExpertPicker?idUser=2">下一页</a></li><li><a data-pageindex="2" href="/User/AjaxSearchMyExpertPicker?idUser=2">末页</a></li></ul>
+                                <!--MvcPager v3.0.1 for ASP.NET MVC 4.0+ © 2009-2015 Webdiyer (http://en.webdiyer.com)-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <script type="text/javascript">
+                    function CancelFavExpert(expertID) {
+                        ycConfirm("是否取消此关注？", ConfirmCancelFavExpert, expertID);
+                    }
+
+                    function ConfirmCancelFavExpert(expertID)
+                    {
+                        var url = "/User/CancelFavExpert" + "?expertID=" + expertID;
+                        $.post(url, { expertID: expertID }, function (result) {
+                            if (result != null && result.flag == true) {
+                                $("#user" + expertID).remove();
+                                //ycAlert("取消此关注成功。");
+                            }
+                            else {
+                                //ycAlert("取消此关注失败。");
+                            }
+                        }, 'json');
+                    }
+                </script>
+                <script src="/plugin/MvcPager/MvcPager.js"></script>
+              </div>
+
+              <div class="netservicedetail-page">
+                咨询详情
+                  <div class="list-no-header">                   
+                      <div class="item">
+                          <div class="info-wrap">
+                              <div class="info">
+                                  <h3 class="clearfix">
+                                      <a class='emphasis' href="/NS/NSDetail?serviceID=34" target="_blank">yaoq</a>
+                                      <!-- <span style="font-size:8pt; color:#fa8639" id="top34" title=""></span> -->
+                                      <span class="tag">具备组织管理能力</span>
+                                      <span class="tag">燃气轮机 </span>
+                                      <span class="tag">航空发动机 </span>
+                                  </h3>
+                                  <div class="clearfix">
+                                      <span class="startime">
+                                          发布时间：<span>2017/1/23 9:01:05</span>
+                                      </span>
+                                      <span class="count">
+                                          参与人数：<span>3</span>
+                                      </span>
+                                      <span class="author">
+                                          发布人：<span><a href="/User/UserStatics?userID=39" target="_blank">wzhaopower</a></span>
+                                      </span>
+                                  </div>
+                              </div>
+                              <div class="money">
+                                  <span>￥</span>0<span>元</span>
+                              </div>
+                          </div>
+                          <p>
+                              <span>一、 报名对象：
+
+                                      2017年9月1日年满3周岁的本校教职工子女和第三代
+                                  子女（2014年8月31日以前出生）。
+
+                                  二、 报名时间、地点：
+
+                                  请于2017年3月1日至3月31日工作日到幼儿园办公
+
+                                  室登记，联系电话：8230-3564（双休日不办理）。
+
+                                      因9月份我园新生儿童入园名额有限，为提早做好9月
+
+                                  招生工作，保证您的孩子能顺利入园，请需要入园的儿童家
+
+                                  长按时来园登记报名，报名时各位家长携带有效证件（职工
+
+                                  子女家长携带工作证，三代子女家长携带退休证），逾期未
+
+                                  办理登记者，若名额已满，幼儿将不能按时入园，尽请谅解
+
+                                  ，谢谢配合！        
+                              </span>
+                          </p>
+                          <p class='clearfix'>
+                              <a class="pull-right file-download" href="/Expert/FileDownloadByID?archiveID=58">
+                                <span class="glyphicon glyphicon-file" aria-hidden="true">附件</span>
+                              </a>
+                          </p>
+                      </div>
+                      <div class="item">
+                          <div class="info-wrap">
+                              <div class="info">
+                                  <h3 class="clearfix">
+                                      <a class='emphasis' href="/NS/NSDetail?serviceID=35" target="_blank" style="padding-right:4px">hhh</a>
+                                      <span style="font-size:8pt; color:#fa8639" id="top35" title=""></span>
+                                      <span class="tag">气动设计</span>
+                                  </h3>
+                                  <div class="clearfix">
+                                      <span class="startime">
+                                          发布时间：<span>2017/2/7 14:16:17</span>
+                                      </span>
+                                      <span class="count">
+                                          参与人数：<span>2</span>
+                                      </span>
+                                      <span class="author">
+                                          发布人：<span><a href="/User/UserStatics?userID=45" target="_blank">wangzhao2017</a></span>
+                                      </span>
+                                  </div>
+                              </div>
+                              <div class="money">
+                                  <span>￥</span>5<span>元</span>
+                              </div>
+                          </div>
+                          <p>
+                              <span>ddd</span>
+                          </p>
+                          <p>
+                              <span style="padding-bottom:8px">&nbsp;</span>
+                          </p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="mywithdraw-page">
+                我的充值
+                <div class="row form-wrap">
+                    <form action="/Payment/SubmitAlipay" class="form-inline search row" id="profile-form" method="post" novalidate="novalidate">
+                        <input name="__RequestVerificationToken" type="hidden" value="v7MdPZ24JsEhcYPMbBQVeoZKawNpJn1rrnUbVcoj4FpZFs8aY_VJ7cdcEslc-XQfpfdef7DKJyTHJ9kiYeEpa_p1_ED2HaZhjpyK-w9SFww1">            
+                        <div class="form-group">
+                            <label for="money">金额:</label>
+                            <input class="form-control" data-val="true" data-val-number="字段 Amount 必须是一个数字。" data-val-range="输入值必须在 1 和 10000 之间" data-val-range-max="10000" data-val-range-min="1" data-val-regex="请输入数字" data-val-regex-pattern="^[0-9]*$" data-val-required="请输入充值金额" id="Amount" name="Amount" placeholder="请输入充值金额" type="text" value="">元
+                            <button class="btn btn-primary" type="submit">确定</button>
+                        </div>                        
+                        <span style="padding-left:8px">
+                            <span class="field-validation-valid" data-valmsg-for="Amount" data-valmsg-replace="true"></span>
+                        </span>
+                    </form>    
+                </div>
+                <p>当前余额：<span>1.1</span>元</p>
+                <ul class="statistics">
+                  <li>
+                    <p class='title'>总收入</p>
+                    <p class='content'>25.91</p>
+                  </li>
+                  <li>
+                    <p class='title'>服务次数</p>
+                    <p class='content'>0</p>
+                  </li>
+                  <li>
+                    <p class='title'>被酬谢次数</p>
+                    <p class='content'>28</p>
+                  </li>
+                  <li>
+                    <p class='title'>评价数</p>
+                    <p class='content'>2</p>
+                  </li>
+                  <li>
+                    <p class='title'>被收藏数</p>
+                    <p class='content'>0</p>
+                  </li>
+                </ul>
+
+              </div>
+
+          </div>
+
+      </div>
+
+      <div class="footer row" id='footer'>
+        
+        <div class="pc b-box bg-blue">
+            <div class="b-l">
+                <p class="">
+                    北京百思华青信息科技有限公司 版权所有 @ 京ICP备16021749号
+                    <br />
+                    2016 ALL RIGHTS RESERVED.@ BESTASKER BEIJING
+                </p>
+            </div>
+            <div class="b-c">
+                <div>
+                    <h3 class="">地址: </h3>
+                    <span class="">北京市朝阳区安华里五区21号楼四层</span>
+                </div>
+                <div>
+                    <h3 class="">邮箱: </h3>
+                    <a href="mailto:besturbo@bestasker.com‍ " alt="" class="uline">besturbo@bestasker.com‍</a>
+                </div>
+            </div>
+            <div class="b-r">
+                <div>
+                    <h3 class="">邮编: </h3>
+                    <span class="">100000 </span>
+                </div>
+                <div onclick="window.open('./images/百思动力二维码1.jpg')" style="cursor:pointer;">
+                    <h3 class="">点击咨询微信号: </h3>
+                    <span class="">BESTurbo</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mobile">
+          <p>北京百思华青信息科技有限公司</p>
+          <p>13522389103</p>
+        </div>
+
+      </div>
+
+
+    
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/sdmenu.js"></script>
+    <script>
+      
+      // var pc_left_menu, mobile_left_menu;
+      // window.onload = function() {
+      //   pc_left_menu = new SDMenu("pc-left-menu");
+      //   pc_left_menu.init();
+
+      //   mobile_left_menu = new SDMenu("mobile-left-menu");
+      //   mobile_left_menu.init();
+      // };
+
+    </script>
+  </body>
+</html>
